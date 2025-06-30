@@ -49,6 +49,9 @@ const Login = () => {
             />
           </div>
           <button type="submit" className="btn btn-auth">Login</button>
+          <div className="auth-switch">
+         Don't have an account? <Link to="/signup">Signup</Link>
+          </div>
         </form>
       </div>
     </div>
