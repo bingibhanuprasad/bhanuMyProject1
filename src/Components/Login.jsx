@@ -14,7 +14,7 @@ const Login = () => {
           <div className="mb-3">
             <input type="password" className="form-control" placeholder="Password" required />
           </div>
-          <button type="submit" className="btn btn-auth">Loginnnnnnnnn</button>
+          <button type="submit" className="btn btn-auth">Login</button>
           <div className="auth-switch">
             Don't have an account? <Link to="/signup">Signup</Link>
           </div>
